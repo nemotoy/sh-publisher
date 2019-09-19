@@ -1,0 +1,22 @@
+[
+    {
+        "messageA": {
+            "name": "nameA",
+            "values":[
+                {
+                    "type":"A",
+                    "text":"Hello"
+                }
+            ]
+        },
+        "messageB": {
+            "name": "nameB",
+            "values":[
+                {
+                    "type":"B",
+                    "text":"Hello"
+                }
+            ]
+        }
+    }
+]
