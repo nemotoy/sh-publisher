@@ -75,7 +75,7 @@ function publish() {
 
   gen_attribute
   do_publish
-  echo gcloud pubsub topics publish "${TOPIC_NAME}" --message "${msg}" --attribute "${attr}"
+  gcloud pubsub topics publish "${TOPIC_NAME}" --message "${msg}" --attribute "${attr}"
 }
 
 
